@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4a5a71"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/Home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#4a5a71"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="28dp"
+            android:gravity="center"
+            android:text="@string/github"
+            android:textColor="#FFFEFE"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.166"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gau"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="110dp"
+            android:layout_height="28dp"
+            android:gravity="center"
+            android:text="@string/about"
+            android:textColor="#FFFEFE"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.833"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/abo"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/home"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="32dp"
+            android:fontFamily="@font/coolvetica"
+            android:gravity="center"
+            android:text="@string/home_title"
+            android:textColor="#F8F5F5"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/fb"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:clickable="true"
+            android:contentDescription="@string/facebook"
+            android:contextClickable="true"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/home"
+            app:srcCompat="@drawable/fb" />
+
+        <ImageView
+            android:id="@+id/tt"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="50dp"
+            android:clickable="true"
+            android:contentDescription="@string/twitter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/home"
+            app:srcCompat="@drawable/tt" />
+
+        <ImageView
+            android:id="@+id/ins"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:clickable="true"
+            android:contentDescription="@string/discord"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fb"
+            app:srcCompat="@drawable/ins" />
+
+        <ImageView
+            android:id="@+id/lin"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="50dp"
+            android:clickable="true"
+            android:contentDescription="@string/linkedin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tt"
+            app:srcCompat="@drawable/lin" />
+
+        <ImageView
+            android:id="@+id/goo"
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:clickable="true"
+            android:contentDescription="@string/google"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ins"
+            app:srcCompat="@drawable/goo" />
+
+        <ImageView
+            android:id="@+id/yt"
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="50dp"
+            android:contentDescription="@string/youtube"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lin"
+            app:srcCompat="@drawable/yt" />
+
+        <ImageView
+            android:id="@+id/gau"
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginBottom="72dp"
+            android:contentDescription="@string/github"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/gau" />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="50dp"
+            android:gravity="center"
+            android:text="@string/google"
+            android:textColor="#FFFEFE"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/goo"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="50dp"
+            android:gravity="center"
+            android:text="@string/facebook"
+            android:textColor="#FFFEFE"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fb" />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="28dp"
+            android:layout_marginEnd="50dp"
+            android:gravity="center"
+            android:text="@string/twitter"
+            android:textColor="#FFFEFE"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tt"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="50dp"
+            android:gravity="center"
+            android:text="@string/discord"
+            android:textColor="#FFFEFE"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ins"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="28dp"
+            android:layout_marginEnd="50dp"
+            android:gravity="center"
+            android:text="@string/linkedin"
+            android:textColor="#FFFEFE"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lin"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="28dp"
+            android:layout_marginEnd="50dp"
+            android:gravity="center"
+            android:text="@string/youtube"
+            android:textColor="#FFFEFE"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/yt"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/abo"
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="72dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/json" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/disconnection"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_gravity="center"
+        android:visibility="gone">
+
+
+        <TextView
+            android:id="@+id/disconnect_infos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:background="#ACACAC"
+            android:fontFamily="@font/coolvetica"
+            android:gravity="center"
+            android:text="Disconnection"
+            android:textColor="#222121"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/no"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="70dp"
+            android:background="#ACACAC"
+            android:fontFamily="@font/coolvetica"
+            android:gravity="center"
+            android:text="No"
+            android:textAlignment="center"
+            android:textColor="#222121"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/disconnect_infos" />
+
+        <TextView
+            android:id="@+id/yes"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="70dp"
+            android:background="#ACACAC"
+            android:fontFamily="@font/coolvetica"
+            android:gravity="center"
+            android:text="Yes"
+            android:textColor="#222121"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/disconnect_infos" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

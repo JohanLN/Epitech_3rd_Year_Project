@@ -1,0 +1,20 @@
+L'Epicture est le premier projet mobile de la troisième année à Epitech.
+
+Le but de ce projet est de nous faire découvrir le développement mobile, via une application que l'on doit réaliser avec le langage mobile de notre choix tout en utilisant l'API de Imgur.
+
+Les objectifs sont simples. Utiliser le plus grand nombre de call API Imgur, pour avoir une belle application capable de manipuler des photos depuis le site internet.
+
+Une fois le repository clone, lancez "npm install" à la racine du projet pour installer toutes les dépendances. (En espérant que tout ne soit pas déprécate).
+
+Vous pouvez ensuite télécharger l'application depuis 2 invités de commande :
+
+     	    l'un lancera la commande : "npm start"
+
+	    l'autre : "npm run-android"
+
+Une fois sur l'application il faudra vous connecter à Imgur avec le button connect en haut et vous pourrez ensuite utiliser les différentes donctionnalités : - chercher une image
+    	     		      	         - l'ajouter en favoris
+					 - voir vos favoris
+					 - supprimer une image de vos favoris
+					 - upload une image
+					 - voir vos images uploadés

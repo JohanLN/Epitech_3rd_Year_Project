@@ -1,0 +1,66 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>ApiRequest - app</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">app</a>&nbsp;/&nbsp;<a href="../index.html">com.example.area</a>&nbsp;/&nbsp;<a href="./index.html">ApiRequest</a><br/>
+<br/>
+<h1>ApiRequest</h1>
+<code><span class="keyword">class </span><span class="identifier">ApiRequest</span></code>
+<p>API Request.</p>
+<p>No params for this class.</p>
+<p>ApiRequest makes differents requests to the AREA server like Log in / RegisterServices / RegisterActionsReactions</p>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="identifier">ApiRequest</span><span class="symbol">(</span><span class="symbol">)</span></code>
+<p>API Request.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="get-user.html">getUser</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">getUser</span><span class="symbol">(</span><span class="identifier" id="com.example.area.ApiRequest$getUser(android.widget.ProgressBar, android.content.Context, com.example.area.User)/progressBar">progressBar</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/widget/ProgressBar.html"><span class="identifier">ProgressBar</span></a><span class="symbol">?</span><span class="symbol">, </span><span class="identifier" id="com.example.area.ApiRequest$getUser(android.widget.ProgressBar, android.content.Context, com.example.area.User)/context">context</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/Context.html"><span class="identifier">Context</span></a><span class="symbol">, </span><span class="identifier" id="com.example.area.ApiRequest$getUser(android.widget.ProgressBar, android.content.Context, com.example.area.User)/user">user</span><span class="symbol">:</span>&nbsp;<a href="../-user/index.html"><span class="identifier">User</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="register-actions-reactions.html">registerActionsReactions</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">registerActionsReactions</span><span class="symbol">(</span><span class="identifier" id="com.example.area.ApiRequest$registerActionsReactions(android.widget.ProgressBar, android.content.Context, org.json.JSONObject)/progressBar">progressBar</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/widget/ProgressBar.html"><span class="identifier">ProgressBar</span></a><span class="symbol">?</span><span class="symbol">, </span><span class="identifier" id="com.example.area.ApiRequest$registerActionsReactions(android.widget.ProgressBar, android.content.Context, org.json.JSONObject)/context">context</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/Context.html"><span class="identifier">Context</span></a><span class="symbol">, </span><span class="identifier" id="com.example.area.ApiRequest$registerActionsReactions(android.widget.ProgressBar, android.content.Context, org.json.JSONObject)/actionsReactions">actionsReactions</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/org/json/JSONObject.html"><span class="identifier">JSONObject</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="register-service.html">registerService</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">registerService</span><span class="symbol">(</span><span class="identifier" id="com.example.area.ApiRequest$registerService(kotlin.String, kotlin.String, android.widget.ProgressBar, android.content.Context)/service">service</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.example.area.ApiRequest$registerService(kotlin.String, kotlin.String, android.widget.ProgressBar, android.content.Context)/accessToken">accessToken</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.example.area.ApiRequest$registerService(kotlin.String, kotlin.String, android.widget.ProgressBar, android.content.Context)/progressBar">progressBar</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/widget/ProgressBar.html"><span class="identifier">ProgressBar</span></a><span class="symbol">?</span><span class="symbol">, </span><span class="identifier" id="com.example.area.ApiRequest$registerService(kotlin.String, kotlin.String, android.widget.ProgressBar, android.content.Context)/context">context</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/Context.html"><span class="identifier">Context</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="sign-in.html">signIn</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">signIn</span><span class="symbol">(</span><span class="identifier" id="com.example.area.ApiRequest$signIn(kotlin.String, kotlin.String, android.content.Context, android.widget.ProgressBar)/userName">userName</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.example.area.ApiRequest$signIn(kotlin.String, kotlin.String, android.content.Context, android.widget.ProgressBar)/password">password</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.example.area.ApiRequest$signIn(kotlin.String, kotlin.String, android.content.Context, android.widget.ProgressBar)/context">context</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/Context.html"><span class="identifier">Context</span></a><span class="symbol">, </span><span class="identifier" id="com.example.area.ApiRequest$signIn(kotlin.String, kotlin.String, android.content.Context, android.widget.ProgressBar)/progressBar">progressBar</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/widget/ProgressBar.html"><span class="identifier">ProgressBar</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>singIn : Request to the AREA server a connection for user !
+The function takes as parameter :</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

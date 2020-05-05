@@ -1,0 +1,3 @@
+include ':app',':oauthio'
+project(':oauthio').projectDir = new File('./oauthio')
+rootProject.name='AREA'

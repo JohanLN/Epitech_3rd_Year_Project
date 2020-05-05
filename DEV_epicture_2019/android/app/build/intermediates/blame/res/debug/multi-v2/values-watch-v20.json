@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/johanle-nagardepitecheu/Documents/my_github/Epitech_3rd_Year_Project/DEV_epicture_2019/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "/home/johanle-nagardepitecheu/.gradle/caches/transforms-2/files-2.1/b7188385bb13e44899622285687bf2b7/res/values-watch-v20/values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/johanle-nagardepitecheu/Documents/my_github/Epitech_3rd_Year_Project/DEV_epicture_2019/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/home/johanle-nagardepitecheu/.gradle/caches/transforms-2/files-2.1/b7188385bb13e44899622285687bf2b7/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,112 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>TwitterActivity - app</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">app</a>&nbsp;/&nbsp;<a href="../index.html">com.example.area</a>&nbsp;/&nbsp;<a href="./index.html">TwitterActivity</a><br/>
+<br/>
+<h1>TwitterActivity</h1>
+<code><span class="keyword">class </span><span class="identifier">TwitterActivity</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">AppCompatActivity</span><span class="symbol">, </span><a href="https://developer.android.com/reference/android/view/View/OnClickListener.html"><span class="identifier">OnClickListener</span></a></code>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="identifier">TwitterActivity</span><span class="symbol">(</span><span class="symbol">)</span></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-c-o-n-s-u-m-e-r_-k-e-y.html">CONSUMER_KEY</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">CONSUMER_KEY</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="-c-o-n-s-u-m-e-r_-s-e-c-r-e-t.html">CONSUMER_SECRET</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">CONSUMER_SECRET</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="login-button.html">loginButton</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">loginButton</span><span class="symbol">: </span><a href="https://developer.android.com/reference/android/widget/TextView.html"><span class="identifier">TextView</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="logout-button.html">logoutButton</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">logoutButton</span><span class="symbol">: </span><a href="https://developer.android.com/reference/android/widget/TextView.html"><span class="identifier">TextView</span></a><span class="symbol">?</span></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="check-internet-connection.html">checkInternetConnection</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">checkInternetConnection</span><span class="symbol">(</span><span class="identifier" id="com.example.area.TwitterActivity$checkInternetConnection(android.content.Context)/context">context</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/Context.html"><span class="identifier">Context</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="fetch-twitter-email.html">fetchTwitterEmail</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">fetchTwitterEmail</span><span class="symbol">(</span><span class="identifier" id="com.example.area.TwitterActivity$fetchTwitterEmail(com.twitter.sdk.android.core.TwitterSession)/twitterSession">twitterSession</span><span class="symbol">:</span>&nbsp;<span class="identifier">TwitterSession</span><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="on-activity-result.html">onActivityResult</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onActivityResult</span><span class="symbol">(</span><span class="identifier" id="com.example.area.TwitterActivity$onActivityResult(kotlin.Int, kotlin.Int, android.content.Intent)/requestCode">requestCode</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">, </span><span class="identifier" id="com.example.area.TwitterActivity$onActivityResult(kotlin.Int, kotlin.Int, android.content.Intent)/resultCode">resultCode</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">, </span><span class="identifier" id="com.example.area.TwitterActivity$onActivityResult(kotlin.Int, kotlin.Int, android.content.Intent)/data">data</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/Intent.html"><span class="identifier">Intent</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="on-click.html">onClick</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onClick</span><span class="symbol">(</span><span class="identifier" id="com.example.area.TwitterActivity$onClick(android.view.View)/v">v</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/view/View.html"><span class="identifier">View</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="on-create.html">onCreate</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onCreate</span><span class="symbol">(</span><span class="identifier" id="com.example.area.TwitterActivity$onCreate(android.os.Bundle)/savedInstanceState">savedInstanceState</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/os/Bundle.html"><span class="identifier">Bundle</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="twitter-login.html">twitterLogin</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">twitterLogin</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="update-ui.html">updateUi</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">updateUi</span><span class="symbol">(</span><span class="identifier" id="com.example.area.TwitterActivity$updateUi(kotlin.Boolean)/state">state</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

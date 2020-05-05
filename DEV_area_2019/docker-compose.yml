@@ -1,0 +1,40 @@
+version: "3.7"
+services:
+  server:
+    build: ./server
+    #volumes:
+    #  - ./server/Area:/app
+    ports:
+      - "8080:8080"
+    #environement:
+    #    - FLASK_APP=app/app.py
+    #    - FLASK_ENV=development
+    #command:
+    #   node server
+  client_mobile:
+    build: ./mobileapp
+    #depends_on:
+    #  - server
+    #volumes:
+    #  - apk:C:/:rw #pour lire le fichier dans le PC path:pathInDocker
+    volumes:
+      - apk:/tmp/
+  client_web:
+    build: ./web
+    ports:
+      - "8081:8081"
+    depends_on:
+      - server
+      - client_mobile
+    volumes:
+      - apk:/tmp/
+    #volumes:
+    #  - /app/node_modules
+    #  - apk:C:/:ro
+
+volumes:
+   apk:
+#
+#networks:
+#   
+#

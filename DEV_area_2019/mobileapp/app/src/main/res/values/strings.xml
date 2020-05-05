@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- COMMUN DISPLAY -->
+    <string name="app_name">AREA</string>
+    <string name="home_title">Home menu</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="discord">Discord</string>
+    <string name="linkedin">Linkedin</string>
+    <string name="google">Imgur</string>
+    <string name="youtube">Slack</string>
+    <string name="github">Github</string>
+    <string name="about">About.json</string>
+    <string name="action">Action</string>
+    <string name="reaction">Reaction</string>
+
+    <!-- FACEBOOK ID'S -->
+    <string name="facebook_app_id">588132325252269</string> <string name="fb_login_protocol_scheme">fb588132325252269</string>
+
+    <!-- TWITTER ID'S -->
+    <string name="twitter_consumer_key">dGxBsnkJTiX8oykKstwEVSiM</string>
+    <string name="twitter_consumer_secret">1bM0XjMELzOAlOlD64YnqmQ3cMljh0LDtiYWHx9ItZoEDxWDBg</string>
+
+    <!-- LINKEDIN ID'S -->
+    <string name="linkedin_consumer_key">770a2uhwp3j0ud</string>
+    <string name="linkedin_consumer_secret">QTUz6jDo2BBWKoA6</string>
+
+    <!-- OAUTHIO ID'S -->
+    <string name="oauth_id">KYeI9XgOBJEaNr02WaNwJ12tFEE</string>
+    <string name="oauth_secret">pj-GBYZkqSkalX1x0ZHrcx-uVbg</string>
+
+    <!-- ACTIONS -->
+    <string name="GotAMessage">Recieve a message</string>
+    <string name="GotALike">Recieve a like</string>
+    <string name="GotAComment">Recieve a comment</string>
+    <string name="GotAPublisht">Recieve a publication</string>
+    <string name="GotAGrpPost">Recieve a group post</string>
+
+    <!-- REACTIONS -->
+    <string name="SendMail">Send an E-mail</string>
+</resources>

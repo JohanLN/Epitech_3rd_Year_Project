@@ -1,0 +1,18 @@
+Le projet AREA est un projet de fin de troisième année.
+
+L'objectif du projet est de pouvoir réaliser un système d'action réaction.
+
+L'utilisateur peut paramétrer depuis l'application mobile ou le client web une action depuis une api.
+
+Par exemple : "Si je recois un message sur facebook".
+
+Et ensuite choisir l'action approprier.
+
+Exemple : "Alors je souhaite recevoir un mail".
+
+J'ai pour ma part travailler entièrement sur l'application mobile. Le projet étant fini le serveur a été éteint.
+
+Vous pouvez tout de même le faire tourner en local avec une machine tournant sur windows 10 pro pour utiliser "azure"
+et en ouvrant les ports. Pour ce qui est des call api il faudra changer les posts et le gets sur https://areaepitechrennes.azurewebsites.net par https://localhost/
+
+Mais vous pourrez aussi trouver des screenshots de l'application mobile dans le dossier screenshots.
